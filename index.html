@@ -11884,7 +11884,8 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="This-talk---a-proposal,-a-hypothesis,-a-statement">This talk - a proposal, a hypothesis, a statement<a class="anchor-link" href="#This-talk---a-proposal,-a-hypothesis,-a-statement">&#182;</a></h3><p><em>Python can lead to a more enriching learning and teaching experience in the classroom</em></p>
+<h3 id="This-talk---a-proposal,-a-hypothesis,-a-statement">This talk - a proposal, a hypothesis, a statement<a class="anchor-link" href="#This-talk---a-proposal,-a-hypothesis,-a-statement">&#182;</a></h3><p>What? <em>Python can lead to a more enriching learning and teaching experience in the classroom</em></p>
+<p>How? <em>Next slides</em></p>
 
 </div>
 </div>
@@ -11914,19 +11915,30 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Python---a-scientific-calculator">Python - a scientific calculator<a class="anchor-link" href="#Python---a-scientific-calculator">&#182;</a></h3><p>Whose calculator looks like this?</p>
+<div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="p">(</span><span class="mi">131</span> <span class="o">+</span> <span class="mf">21.5</span> <span class="o">+</span> <span class="mf">100.2</span> <span class="o">+</span> <span class="mf">88.7</span> <span class="o">+</span> <span class="mf">99.5</span> <span class="o">+</span> <span class="mf">100.5</span> <span class="o">+</span> <span class="mf">200.5</span><span class="p">)</span><span class="o">/</span><span class="mi">4</span>
+<span class="mf">185.475</span>
+</pre></div>
+<p><em>Python 3 is my favorite calculator (not Python 2 because 1/2 = 0)</em></p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Python---a-scientific-calculator">Python - a scientific calculator<a class="anchor-link" href="#Python---a-scientific-calculator">&#182;</a></h3><ul>
-<li>Python 3 is my favorite calculator (not Python 2 because 1/2 = 0)</li>
-</ul>
-<ul>
-<li><code>fabs()</code>, <code>abs()</code>, <code>sin()</code>, <code>cos()</code>, <code>gcd()</code>, <code>log()</code> (See <a href="https://docs.python.org/3/library/math.html">math</a>)</li>
-</ul>
-<ul>
-<li>Descriptive statistics (See <a href="https://docs.python.org/3/library/statistics.html#module-statistics">statistics</a>)</li>
+<li><p><code>fabs()</code>, <code>abs()</code>, <code>sin()</code>, <code>cos()</code>, <code>gcd()</code>, <code>log()</code> and more (See <a href="https://docs.python.org/3/library/math.html">math</a>)</p>
+</li>
+<li><p>Descriptive statistics (See <a href="https://docs.python.org/3/library/statistics.html#module-statistics">statistics</a>)</p>
+</li>
 </ul>
 
 </div>
 </div>
-</div></section><section>
+</div></div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -11938,29 +11950,8 @@ a.anchor-link {
 <li><p>Use PYTHONSTARTUP to extend the battery of readily available mathematical functions</p>
 </li>
 </ul>
-
-<pre><code>$ PYTHONSTARTUP=~/work/dmwp/pycon-us-2016/startup_math.py idle3 -s</code></pre>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Unit-conversion-functions">Unit conversion functions<a class="anchor-link" href="#Unit-conversion-functions">&#182;</a></h3>
-<pre><code>&gt;&gt;&gt; unit_conversion()
-1. Kilometers to Miles
-2. Miles to Kilometers
-3. Kilograms to Pounds
-4. Pounds to Kilograms
-5. Celsius to Fahrenheit
-6. Fahrenheit to Celsius
-Which conversion would you like to do? 6
-Enter temperature in fahrenheit: 98
-Temperature in celsius: 36.66666666666667
-&gt;&gt;&gt;</code></pre>
+<div class="highlight"><pre><span></span><span class="err">$</span> <span class="n">PYTHONSTARTUP</span><span class="o">=~/</span><span class="n">work</span><span class="o">/</span><span class="n">dmwp</span><span class="o">/</span><span class="n">pycon</span><span class="o">-</span><span class="n">us</span><span class="o">-</span><span class="mi">2016</span><span class="o">/</span><span class="n">startup_math</span><span class="o">.</span><span class="n">py</span> <span class="n">idle3</span> <span class="o">-</span><span class="n">s</span>
+</pre></div>
 
 </div>
 </div>
@@ -11970,12 +11961,33 @@ Temperature in celsius: 36.66666666666667
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Finding-linear-correlation">Finding linear correlation<a class="anchor-link" href="#Finding-linear-correlation">&#182;</a></h3>
-<pre><code>&gt;&gt;&gt; 
-&gt;&gt;&gt; x = [1, 2, 3, 4]
-&gt;&gt;&gt; y = [2, 4, 6.1, 7.9]
-&gt;&gt;&gt; find_corr_x_y(x, y)
-0.9995411791453812</code></pre>
+<h3 id="Unit-conversion-functions">Unit conversion functions<a class="anchor-link" href="#Unit-conversion-functions">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> <span class="n">unit_conversion</span><span class="p">()</span>
+<span class="mf">1.</span> <span class="n">Kilometers</span> <span class="n">to</span> <span class="n">Miles</span>
+<span class="mf">2.</span> <span class="n">Miles</span> <span class="n">to</span> <span class="n">Kilometers</span>
+<span class="mf">3.</span> <span class="n">Kilograms</span> <span class="n">to</span> <span class="n">Pounds</span>
+<span class="mf">4.</span> <span class="n">Pounds</span> <span class="n">to</span> <span class="n">Kilograms</span>
+<span class="mf">5.</span> <span class="n">Celsius</span> <span class="n">to</span> <span class="n">Fahrenheit</span>
+<span class="mf">6.</span> <span class="n">Fahrenheit</span> <span class="n">to</span> <span class="n">Celsius</span>
+<span class="n">Which</span> <span class="n">conversion</span> <span class="n">would</span> <span class="n">you</span> <span class="n">like</span> <span class="n">to</span> <span class="n">do</span><span class="err">?</span> <span class="mi">6</span>
+<span class="n">Enter</span> <span class="n">temperature</span> <span class="ow">in</span> <span class="n">fahrenheit</span><span class="p">:</span> <span class="mi">98</span>
+<span class="n">Temperature</span> <span class="ow">in</span> <span class="n">celsius</span><span class="p">:</span> <span class="mf">36.66666666666667</span>
+<span class="o">&gt;&gt;&gt;</span>
+</pre></div>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Finding-linear-correlation">Finding linear correlation<a class="anchor-link" href="#Finding-linear-correlation">&#182;</a></h3><div class="highlight"><pre><span></span><span class="o">&gt;&gt;&gt;</span> 
+<span class="o">&gt;&gt;&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">y</span> <span class="o">=</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mf">6.1</span><span class="p">,</span> <span class="mf">7.9</span><span class="p">]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">find_corr_x_y</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="mf">0.9995411791453812</span>
+</pre></div>
 
 </div>
 </div>
@@ -11990,23 +12002,7 @@ Temperature in celsius: 36.66666666666667
 
 </div>
 </div>
-</div><aside class="notes">
-
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">When</span> <span class="n">you</span> <span class="n">bring</span> <span class="ow">in</span> <span class="n">SymPy</span> <span class="n">to</span> <span class="n">the</span> <span class="n">picture</span><span class="p">,</span> <span class="n">things</span> <span class="n">really</span>  <span class="n">get</span> <span class="n">awesome</span><span class="o">.</span> <span class="n">You</span> <span class="n">are</span> <span class="n">suddenly</span> <span class="n">writing</span> <span class="n">computer</span>
-<span class="n">programs</span> <span class="n">which</span> <span class="n">are</span> <span class="n">capable</span> <span class="n">of</span> <span class="n">speaking</span> <span class="n">algebra</span><span class="o">.</span> <span class="n">You</span> <span class="n">are</span> <span class="n">no</span> <span class="n">more</span> <span class="n">limited</span> <span class="n">to</span> <span class="n">numbers</span><span class="o">.</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-</aside></section><section>
+</div></section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[5]:</div>

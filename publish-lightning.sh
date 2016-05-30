@@ -1,7 +1,7 @@
 #!/bin/bash
 
 jupyter-nbconvert --to slides lightning-talk-slides.ipynb --reveal-prefix=reveal.js
-mv slides.slides.html  lightning.html
+mv lightning-talk-slides.slides.html  lightning.html
 cp lightning.html /tmp/
 cp -r images /tmp/
 git add -A .
